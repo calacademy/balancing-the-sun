@@ -1,0 +1,233 @@
+@import "./_vars.scss";
+
+#main {
+
+  width: 100%;
+  height: 1035px;
+  background-color: #fff;
+  //opacity: 0.5;
+
+  background-image: url('../img/map-all.png');
+  background-repeat: no-repeat;
+
+  &.uv-low {
+    background-image: url('../img/map-green.png') !important;
+  }
+  &.uv-medium {
+    background-image: url('../img/map-blue.png') !important;
+  }
+  &.uv-high {
+    background-image: url('../img/map-purple.png') !important;
+  }
+
+  #top-left {
+    position: absolute;
+    z-index: 2;
+    padding: 44px 0 0 50px;
+    width: 300px;
+    height: 630px;
+    //pointer-events: none;
+
+    h1 {
+      padding-bottom: 34px;
+      p {
+        @include h1-rule;
+      }
+    }
+    p {
+      p {
+        padding-bottom: 12px;
+        @include body1-rule;
+      }
+    }
+  }
+
+  #bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 350px;
+
+    h1 {
+      padding-bottom: 24px;
+      p {
+        @include h1-rule;
+      }
+    }
+    p {
+      p {
+        padding-bottom: 12px;
+        @include body1-rule;
+      }
+    }
+
+    #info-uv-skin {
+
+      div {
+        height: 330px;
+        overflow: hidden;
+        padding-top: 15px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+        float: left;
+      }
+
+      #info-uv {
+        padding-left: 50px;
+        width: 527px;
+      }
+      .uv-low {
+        background-color: $uv-low-color
+      }
+      .uv-medium {
+        background-color: $uv-medium-color
+      }
+      .uv-high {
+        background-color: $uv-high-color
+      }
+
+      #info-skin {
+        background-repeat: no-repeat;
+        background-size: 248px;
+        background-position: 30px 50px;
+        padding-left: 343px;
+        width: 900px;
+      }
+      .sp1 {
+        @include p1-info-style;
+      }
+      .sp2 {
+        @include p2-info-style;
+      }
+      .sp3 {
+        @include p3-info-style;
+      }
+      .sp4 {
+        @include p4-info-style;
+      }
+      .sp5 {
+        @include p5-info-style;
+      }
+      .sp6 {
+        @include p6-info-style;
+      }
+      .sp7 {
+        @include p7-info-style;
+      }
+      .sp8 {
+        @include p8-info-style;
+      }
+      .sp9 {
+        @include p9-info-style;
+      }
+      .sp10 {
+        @include p10-info-style;
+      }
+      .sp11 {
+        @include p11-info-style;
+      }
+      .sp12 {
+        @include p12-info-style;
+      }
+      .sp13 {
+        @include p13-info-style;
+      }
+      .sp14 {
+        @include p14-info-style;
+      }
+      .sp15 {
+        @include p15-info-style;
+      }
+      .sp16 {
+        @include p16-info-style;
+      }
+      .sp17 {
+        @include p17-info-style;
+      }
+
+      .info-skin-buttons {
+        position: absolute;
+        width: 550px;
+        height: 45px;
+        left: 970px;
+        bottom: 30px;
+      }
+
+    }
+
+    #info-video {
+      background-color: $vid-yellow;
+      width: 100%;
+      height: 350px;
+      padding-top: 15px;
+      padding-right: 50px;
+      padding-bottom: 20px;
+      padding-left: 50px;
+
+      #video-thumb {
+        margin-top: 5px;
+        width: 309px;
+        height: 309px;
+        background-image: url('../img/photos/video-thumb.png');
+        background-repeat: no-repeat;
+        margin-right: 91px;
+        float: left;
+      }
+
+      .info-video-text {
+        .info-video-columns {
+          columns: 550px 2;
+          column-gap: 100px;
+          width: 1200px;
+          height: 180px;
+          column-fill: auto;
+        }
+      }
+
+      .info-video-buttons {
+        position: absolute;
+        width: 550px;
+        height: 45px;
+        left: 450px;
+        bottom: 30px;
+      }
+    }
+
+    .info-skin-buttons,
+    .info-video-buttons {
+      button {
+        padding-top: 15px;
+        padding-bottom: 14px;
+
+        border: 2px solid #000;
+        outline: none;
+        background-color: #fff;
+        pointer-events: all;
+        margin-right:45px;
+        text-align: center;
+        &:active {
+          opacity: 0.7;
+        }
+        p {
+          @include cta-rule
+          padding-bottom: 0;
+          padding-left: 50px;
+          padding-right: 50px;
+          color: #000 !important;
+        }
+      }
+    }
+
+  }
+
+  #container-persons {
+    width: 1580px;
+    height: 685px;
+    overflow: hidden;
+    position: absolute;
+    top: 45px;
+    right: 0;
+    z-index: 2;
+  }
+
+}

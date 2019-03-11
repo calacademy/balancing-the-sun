@@ -1,0 +1,25 @@
+@import "./_vars.scss";
+
+#progress {
+
+  animation-delay: 1s;
+
+  svg {
+    transform: rotate(-90deg);
+    width: 60px;
+    height: 60px;
+    circle {
+      fill: none;
+      &.progress {
+        stroke: #ffffff;
+        stroke-width: 6;
+        stroke-dasharray: 170;
+      }
+      &.bg {
+        stroke: #000000;
+        stroke-width: 2;
+      }
+    }
+  }
+
+}

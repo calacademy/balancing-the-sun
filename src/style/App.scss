@@ -1,0 +1,77 @@
+@import "./_vars.scss";
+
+#app {
+
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  color: #000;
+  background-color: #000;
+
+  /*background-image: url('../img/temp-guide.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;*/
+
+  #container-loader {
+    width: 1920px;
+    height: 1080px;
+    background-color: #000;
+    position: absolute;
+    z-index: 99;
+    overflow: hidden;
+  }
+
+  #container-translator {
+    width: 1920px;
+    height: 45px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    background-color: #000;
+  }
+
+  #container-credits {
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 3;
+    background-color: #000;
+    @include anim-hide-rule;
+  }
+
+  #container-video {
+    width: 1920px;
+    top: 45px;
+    height: 1035px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 3;
+    background-color: #000;
+    @include anim-hide-rule;
+  }
+
+  #container-popups {
+    width: 1920px;
+    height: 1035px;
+    position: absolute;
+    top: 45px;
+    z-index: 2;
+    //opacity: 0.5;
+  }
+
+  #container-main {
+    width: 1920px;
+    top: 45px;
+    height: 1035px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 3;
+    //opacity: 0.5;
+  }
+
+  .hide {
+    display: none;
+  }
+
+}

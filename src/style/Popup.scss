@@ -1,0 +1,62 @@
+@import "./_vars.scss";
+
+.popup {
+
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+
+  .popup-inner {
+
+    position: relative;
+    top: 30px;
+    left: 50px;
+    width: 1820px;
+    height: 975px;
+    overflow: hidden;
+    background-color: #000;
+
+    .popup-left {
+      position: absolute;
+      z-index: 1;
+      padding: 25px 0 0 50px;
+      width: 550px;
+      h1 {
+        padding-bottom: 34px;
+        p {
+          @include h1-rule;
+          color: $vid-yellow;
+        }
+      }
+      p {
+        p {
+          padding-bottom: 22px;
+          @include body1-rule;
+          color: #fff;
+        }
+      }
+    }
+
+    button {
+      position: absolute;
+      z-index: 1;
+      top: 30px;
+      right: 30px;
+      width: 62px;
+      height: 62px;
+      background-image: url('../img/close-btn.svg');
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      background-color: transparent;
+      &:active {
+        opacity: 0.7;
+      }
+    }
+
+  }
+
+
+
+
+
+}

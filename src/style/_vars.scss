@@ -1,0 +1,229 @@
+$blue: #009cde;
+$green: #6cc24a;
+$orange: #f2b944;
+$gray: #676767;
+
+$vid-yellow: #f1b845;
+
+// skin pigment colors per person
+$sp1-color: #58312b;
+$sp2-color: #653833;
+$sp3-color: #854334;
+$sp4-color: #83442d;
+$sp5-color: #50221b;
+$sp6-color: #c98b78;
+$sp7-color: #b68169;
+$sp8-color: #db9d85;
+$sp9-color: #cf876d;
+$sp10-color: #f9d6b3;
+$sp11-color: #f0ae97;
+$sp12-color: #e3a68e;
+$sp13-color: #fed4c4;
+$sp14-color: #fdd8c6;
+$sp15-color: #fde8e1;
+$sp16-color: #fbd7c4;
+$sp17-color: #fae7e3;
+
+// uv colors
+$uv-low-color: #bdce7d;
+$uv-medium-color: #69a3b8;
+$uv-high-color: #b7a9d1;
+
+$easing: cubic-bezier(.215, .61, .355, 1);
+
+@mixin anim-hide-rule {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0.5s, opacity 0.4s $easing;
+  &.hide-anim {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.4s $easing;
+  }
+}
+
+@mixin h1-rule {
+  font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+  font-size: 40px;
+  line-height: 47px;
+}
+
+/*@mixin h2-rule {
+  font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+  font-size: 35px;
+  line-height: 40px;
+}
+
+@mixin h3-rule {
+  font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+  font-size: 22px;
+  line-height: 26px;
+}
+
+@mixin h4-rule {
+  font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+  font-size: 14px;
+  line-height: 16px;
+}*/
+
+@mixin body1-rule {
+  font-family: 'W-Book', 'SourceHanSansCN-Normal';
+  font-size: 21px;
+  line-height: 27px;
+  letter-spacing: -0.5px;
+}
+
+@mixin caption-rule {
+  color: #fff;
+  font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+  font-size: 14px;
+  line-height: 20px;
+  //letter-spacing: -0.5px;
+}
+
+@mixin cta-rule {
+  color: #000;
+  font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+  font-size: 14px;
+  line-height: 14px;
+  //letter-spacing: -0.5px;
+}
+
+@mixin video-caption-rule {
+  font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+  font-size: 46px;
+  line-height: 56px;
+  text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.85);
+}
+
+/*@mixin body2-rule {
+  font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+  font-size: 16px;
+  line-height: 19px;
+}
+
+@mixin body3-rule {
+  font-family: 'W-Book', 'SourceHanSansCN-Normal';
+  font-size: 14px;
+  line-height: 16px;
+}*/
+
+@mixin p1-info-style {
+  background-image: url('../img/uv-animation-callout-high.png');
+  background-color: $sp1-color;
+  h1, p {
+    color: #fff;
+  }
+}
+@mixin p2-info-style {
+  background-image: url('../img/uv-animation-callout-high.png');
+  background-color: $sp2-color;
+  h1, p {
+    color: #fff;
+  }
+}
+@mixin p3-info-style {
+  background-image: url('../img/uv-animation-callout-high.png');
+  background-color: $sp3-color;
+  h1, p {
+    color: #fff;
+  }
+}
+@mixin p4-info-style {
+  background-image: url('../img/uv-animation-callout-high.png');
+  background-color: $sp4-color;
+  h1, p {
+    color: #fff;
+  }
+}
+@mixin p5-info-style {
+  background-image: url('../img/uv-animation-callout-high.png');
+  background-color: $sp5-color;
+  h1, p {
+    color: #fff;
+  }
+}
+@mixin p6-info-style {
+  background-image: url('../img/uv-animation-callout-medium.png');
+  background-color: $sp6-color;
+  h1, p {
+    color: #000;
+  }
+}
+@mixin p7-info-style {
+  background-image: url('../img/uv-animation-callout-medium.png');
+  background-color: $sp7-color;
+  h1, p {
+    color: #000;
+  }
+}
+@mixin p8-info-style {
+  background-image: url('../img/uv-animation-callout-medium.png');
+  background-color: $sp8-color;
+  h1, p {
+    color: #000;
+  }
+}
+@mixin p9-info-style {
+  background-image: url('../img/uv-animation-callout-medium.png');
+  background-color: $sp9-color;
+  h1, p {
+    color: #000;
+  }
+}
+@mixin p10-info-style {
+  background-image: url('../img/uv-animation-callout-medium.png');
+  background-color: $sp10-color;
+  h1, p {
+    color: #000;
+  }
+}
+@mixin p11-info-style {
+  background-image: url('../img/uv-animation-callout-medium.png');
+  background-color: $sp11-color;
+  h1, p {
+    color: #000;
+  }
+}
+@mixin p12-info-style {
+  background-image: url('../img/uv-animation-callout-medium.png');
+  background-color: $sp12-color;
+  h1, p {
+    color: #000;
+  }
+}
+@mixin p13-info-style {
+  background-image: url('../img/uv-animation-callout-low.png');
+  background-color: $sp13-color;
+  h1, p {
+    color: #000;
+  }
+}
+@mixin p14-info-style {
+  background-image: url('../img/uv-animation-callout-low.png');
+  background-color: $sp14-color;
+  h1, p {
+    color: #000;
+  }
+}
+@mixin p15-info-style {
+  background-image: url('../img/uv-animation-callout-low.png');
+  background-color: $sp15-color;
+  h1, p {
+    color: #000;
+  }
+}
+@mixin p16-info-style {
+  background-image: url('../img/uv-animation-callout-low.png');
+  background-color: $sp16-color;
+  h1, p {
+    color: #000;
+  }
+}
+@mixin p17-info-style {
+  background-image: url('../img/uv-animation-callout-low.png');
+  background-color: $sp17-color;
+  h1, p {
+    color: #000;
+  }
+}

@@ -1,0 +1,16 @@
+@import "./_vars.scss";
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  padding: 40px;
+  z-index: 1;
+  width: 1840px;
+  text-align: center;
+  overflow: hidden;
+  span {
+    color: #fff;
+    @include video-caption-rule;
+  }
+  @include anim-hide-rule;
+}

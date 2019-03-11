@@ -1,0 +1,317 @@
+@import "./_vars.scss";
+
+.person-selected {
+  z-index: 2 !important;
+}
+
+.person {
+
+  position: absolute;
+  z-index: 1;
+
+  .marker {
+
+    &.selected {
+
+      .dot {
+        border: 2px solid #000;
+      }
+      .line {
+        display: block;
+      }
+      .thumb {
+        display: block;
+      }
+
+    }
+
+    .dot {
+      position: absolute;
+      top: 0;
+      width: 23px;
+      height: 23px;
+      border: 1px solid #000;
+      border-radius: 50%;
+      &:active {
+        opacity: 0.7;
+      }
+    }
+
+    .line {
+      position: absolute;
+      top: 25px;
+      display: none;
+      width: 12px;
+      height: 50px;
+      border-right: 3px solid #000;
+    }
+
+    .thumb {
+      display: none;
+      position: absolute;
+      top: 75px;
+      left: -84px;
+      width: 205px;
+
+      .thumb-image {
+        width: 199px;
+        height: 100px;
+        background-color: #000;
+        border-left: 3px solid #000;
+        border-top: 3px solid #000;
+        border-right: 3px solid #000;
+        background-size: 200px 100px;
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+      }
+
+      .thumb-caption {
+        padding-top: 7px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 6px;
+        width: 179px;
+        background-color: #000;
+        p {
+          @include caption-rule;
+        }
+      }
+
+    }
+
+  }
+
+  // Bugarama, Burundi
+  &#person-1 {
+    top: 355px;
+    left: 240px;
+    .dot {
+      background-color: $sp1-color;
+    }
+    .thumb-image {
+      background-image: url('../img/photos/persons/burundi.jpg');
+    }
+  }
+
+  // Zinder, Niger
+  &#person-2 {
+    top: 275px;
+    left: 160px;
+    .dot {
+      background-color: $sp2-color;
+    }
+    .thumb-image {
+      background-image: url('../img/photos/persons/niger.jpg');
+    }
+  }
+
+  // Colombo, Sri Lanka
+  &#person-3 {
+    top: 300px;
+    left: 460px;
+    .dot {
+      background-color: $sp3-color;
+    }
+    .thumb-image {
+      background-image: url('../img/photos/persons/sri-lanka.jpg');
+    }
+  }
+
+  // Buka, Papua New Guinea
+  &#person-4 {
+    top: 345px;
+    left: 760px;
+    .dot {
+      background-color: $sp4-color;
+    }
+    .thumb-image {
+      background-image: url('../img/photos/persons/papua-new-guinea.jpg');
+    }
+  }
+
+  // El Alto, Bolivia
+  &#person-5 {
+    top: 390px;
+    left: 1325px;
+    .dot {
+      background-color: $sp5-color;
+    }
+    .thumb-image {
+      background-image: url('../img/photos/persons/bolivia.jpg');
+    }
+  }
+
+  // Pietermaritzburg, South Africa
+  &#person-6 {
+    top: 480px;
+    left: 245px;
+    .dot {
+      background-color: $sp6-color;
+      top: unset;
+      bottom: 0;
+    }
+    .line {
+      top: unset;
+      bottom: 25px;
+    }
+    .thumb {
+      top: unset;
+      bottom: 75px;
+    }
+    .thumb-image {
+      background-image: url('../img/photos/persons/south-africa.jpg');
+    }
+  }
+
+  // Cairo, Egypt
+  &#person-7 {
+    top: 210px;
+    left: 250px;
+    .dot {
+      background-color: $sp7-color;
+    }
+    .thumb-image {
+      background-image: url('../img/photos/persons/egypt.jpg');
+    }
+  }
+
+  // Yangshuo, China
+  &#person-8 {
+    top: 235px;
+    left: 590px;
+    .dot {
+      background-color: $sp8-color;
+    }
+    .thumb-image {
+      background-image: url('../img/photos/persons/china.jpg');
+    }
+  }
+  // Lismore, Australia
+  &#person-9 {
+    top: 480px;
+    left: 740px;
+    .dot {
+      background-color: $sp9-color;
+      top: unset;
+      bottom: 0;
+    }
+    .line {
+      top: unset;
+      bottom: 25px;
+    }
+    .thumb {
+      top: unset;
+      bottom: 75px;
+    }
+    .thumb-image {
+      background-image: url('../img/photos/persons/australia.jpg');
+    }
+  }
+
+  // Koshu, Japan
+  &#person-10 {
+    top: 175px;
+    left: 700px;
+    .dot {
+      background-color: $sp10-color;
+    }
+    .thumb-image {
+      background-image: url('../img/photos/persons/japan.jpg');
+    }
+  }
+
+  // Buenos Aires, Argentina
+  &#person-11 {
+    bottom: 190px;
+    left: 1360px;
+    .dot {
+      background-color: $sp11-color;
+      top: unset;
+      bottom: 0;
+    }
+    .line {
+      top: unset;
+      bottom: 25px;
+    }
+    .thumb {
+      top: unset;
+      bottom: 75px;
+    }
+    .thumb-image {
+      background-image: url('../img/photos/persons/argentina.jpg');
+    }
+  }
+
+  // Idaho Falls, Idaho, United States
+  &#person-12 {
+    top: 165px;
+    left: 1140px;
+    .dot {
+      background-color: $sp12-color;
+    }
+    .thumb-image {
+      background-image: url('../img/photos/persons/idaho.jpg');
+    }
+  }
+
+  // Warsaw, Poland
+  &#person-13 {
+    top: 115px;
+    left: 190px;
+    .dot {
+      background-color: $sp13-color;
+    }
+    .thumb-image {
+      background-image: url('../img/photos/persons/poland.jpg');
+    }
+  }
+
+  // Abakan, Russia
+  &#person-14 {
+    top: 55px;
+    left: 500px;
+    .dot {
+      background-color: $sp14-color;
+    }
+    .thumb-image {
+      background-image: url('../img/photos/persons/russia.jpg');
+    }
+  }
+
+  // Utqiagvik, Alaska, United States
+  &#person-15 {
+    top: 45px;
+    left: 990px;
+    .dot {
+      background-color: $sp15-color;
+    }
+    .thumb-image {
+      background-image: url('../img/photos/persons/alaska.jpg');
+    }
+  }
+
+  // Vancouver, Canada
+  &#person-16 {
+    top: 130px;
+    left: 1100px;
+    .dot {
+      background-color: $sp16-color;
+    }
+    .thumb-image {
+      background-image: url('../img/photos/persons/canada.jpg');
+    }
+  }
+
+  // Ilulissat,Greenland
+  &#person-17 {
+    top: 50px;
+    left: 1387px;
+    .dot {
+      background-color: $sp17-color;
+    }
+    .thumb-image {
+      background-image: url('../img/photos/persons/greenland.jpg');
+    }
+  }
+
+}
