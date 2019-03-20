@@ -1,6 +1,6 @@
 @import "./_vars.scss";
 
-.popup {
+#popup {
 
   width: 100%;
   height: 100%;
@@ -53,9 +53,18 @@
       }
     }
 
+    #container-animation {
+      position: absolute;
+      z-index: 1;
+      width: 979px;
+      height: 916px;
+      top: 30px;
+      right: 142px;
+      overflow: hidden;
+      background-color: #111;
+    }
+
   }
-
-
 
 
 

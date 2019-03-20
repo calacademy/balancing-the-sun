@@ -1,0 +1,39 @@
+@import "./_vars.scss";
+
+.label {
+
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 1.5s, opacity 1.4s $easing;
+
+  p {
+    color: #fff;
+    @include h1-rule;
+
+  }
+
+  &.reveal {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &#animation-label-folate-1 {
+    z-index: 1;
+    top: 100px;
+    left: 100px;
+  }
+
+  &#animation-label-folate-2 {
+    z-index: 2;
+    top: 110px;
+    left: 110px;
+  }
+
+  &#animation-label-folate-3 {
+    z-index: 3;
+    top: 120px;
+    left: 120px;
+  }
+
+}

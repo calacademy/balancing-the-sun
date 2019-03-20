@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import '../style/Popup.css'
+import Animation from './Animation'
 
 class Popup extends Component {
 
@@ -21,7 +22,7 @@ class Popup extends Component {
     }
 
     return(
-      <div className="popup">
+      <div id="popup">
         <div
           className={(this.props.display === 'popup') ? 'popup-inner' : 'hide popup-inner'}
           >
@@ -32,6 +33,14 @@ class Popup extends Component {
           <div className="popup-left">
             <h1 dangerouslySetInnerHTML={markupBasicsPopupHeader} />
             <p dangerouslySetInnerHTML={markupBasicsPopupDescription} />
+          </div>
+          <div id="container-animation">
+            <Animation
+              language={this.props.language}
+              dataReady={this.props.dataReady}
+              currentPopup={this.props.currentPopup}
+              parsedDataBasics={this.props.parsedDataBasics}
+            />
           </div>
         </div>
       </div>
