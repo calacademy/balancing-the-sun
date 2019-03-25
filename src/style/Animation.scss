@@ -1,7 +1,7 @@
 #animation {
 
-  width: 979px;
-  height: 916px;
+  width: 940px;
+  height: 880px;
   overflow: hidden;
 
   #label-container {
@@ -14,27 +14,26 @@
 
   #container-images {
     position: relative;
-    height: 916px;
+    height: 880px;
     float: left;
     left: 0px;
 
     img {
-      width: 979px;
-      height: 916px;
+      width: 940px;
+      height: 880px;
       border: none;
       display: block !important;
       float: left;
     }
 
     &.play-folate {
-      width: 293700px;
-      animation: play-folate 11s steps(301) infinite;
+      width: 423000px;
+      animation: play-folate 16s steps(450) infinite;
     }
 
     &.play-vitamin {
-      color: #ff0000;
-      width: 293700px;
-      animation: play-vitamin 11s steps(301) infinite;
+      width: 423000px;
+      animation: play-vitamin 16s steps(450) infinite;
     }
 
   }
@@ -43,10 +42,10 @@
 
 @keyframes play-folate {
   from { left: 0; }
-  to   { left: -293700px; }
+  to   { left: -423000px; }
 }
 
 @keyframes play-vitamin {
   from { left: 0; }
-  to   { left: -293700px; }
+  to   { left: -423000px; }
 }

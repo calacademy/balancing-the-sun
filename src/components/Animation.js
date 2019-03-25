@@ -27,8 +27,8 @@ class Animation extends Component {
         })
         this.setState({
           name: 'folate',
-          filebase: 'carbon_v18_volcanoesSpewCarbon_',
-          frames: 301,
+          filebase: 'BalancingTheSun-Folate_v05_',
+          frames: 450,
           dataLabels: labels
         })
       }
@@ -38,8 +38,8 @@ class Animation extends Component {
         })
         this.setState({
           name: 'vitamin',
-          filebase: 'carbon_v18_volcanoesSpewCarbon_',
-          frames: 301,
+          filebase: 'BalancingTheSun-VitaminD_v04_',
+          frames: 450,
           dataLabels: labels
         })
       }
