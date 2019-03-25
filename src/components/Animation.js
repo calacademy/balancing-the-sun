@@ -78,7 +78,7 @@ class Animation extends Component {
         images.push(
           <img
             key={i}
-            src={"/animation/" + this.state.name + "/" + this.state.filebase + "" + fiver + ".png"}
+            src={process.env.REACT_APP_ANIMATION_PATH + "animation/" + this.state.name + "/" + this.state.filebase + "" + fiver + ".png"}
             alt="" />
         )
       }
