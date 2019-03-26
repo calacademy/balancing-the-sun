@@ -7,17 +7,17 @@
   background-color: #fff;
   //opacity: 0.5;
 
-  background-image: url('../img/map-all.png');
+  background-image: url('../img/map-all.jpg');
   background-repeat: no-repeat;
 
   &.uv-low {
-    background-image: url('../img/map-green.png') !important;
+    background-image: url('../img/map-green.jpg') !important;
   }
   &.uv-medium {
-    background-image: url('../img/map-blue.png') !important;
+    background-image: url('../img/map-blue.jpg') !important;
   }
   &.uv-high {
-    background-image: url('../img/map-purple.png') !important;
+    background-image: url('../img/map-purple.jpg') !important;
   }
 
   #top-left {
