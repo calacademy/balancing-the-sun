@@ -48,7 +48,7 @@ class Label extends Component {
         }
       }
       else if (this.props.dataLabel['Key']['#markup'] === 'animation-label-vitamin-5') {
-        if ((this.props.animLeft <= -102000) && (this.props.animLeft >= -170000)) {
+        if ((this.props.animLeft <= -108000) && (this.props.animLeft >= -170000)) {
           reveal = true
         }
       }
