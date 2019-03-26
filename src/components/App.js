@@ -26,7 +26,7 @@ class App extends Component {
       dataReady: false,
       dataCredits: null,
       currentLanguage: 'en', // en || es || zh || tl
-      inactivityInt: 90000,
+      inactivityInt: 180000,
       dateLastTouch: null,
       currentPerson: null,
       currentPopup: null // folate || vitamin
@@ -157,7 +157,7 @@ class App extends Component {
     })
 
     // verify some data properties
-    const requiredBasicsItemCount = 14
+    const requiredBasicsItemCount = 18
     const requiredPersonCount = 17
     const requiredInfoUVCount = 3
     const requiredInfoSkinPigment = 5
@@ -191,9 +191,13 @@ class App extends Component {
       ['animation-label-folate-1', 'animationLabelFolate1'],
       ['animation-label-folate-2', 'animationLabelFolate2'],
       ['animation-label-folate-3', 'animationLabelFolate3'],
+      ['animation-label-folate-4', 'animationLabelFolate4'],
+      ['animation-label-folate-5', 'animationLabelFolate5'],
       ['animation-label-vitamin-1', 'animationLabelVitamin1'],
       ['animation-label-vitamin-2', 'animationLabelVitamin2'],
-      ['animation-label-vitamin-3', 'animationLabelVitamin3']
+      ['animation-label-vitamin-3', 'animationLabelVitamin3'],
+      ['animation-label-vitamin-4', 'animationLabelVitamin4'],
+      ['animation-label-vitamin-5', 'animationLabelVitamin5']
     ]
     let itemsProcessedBasics = 0
     arrDataBasicsItemsToParse.forEach((item, i, arr) => {

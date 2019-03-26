@@ -8,8 +8,8 @@
   transition: visibility 1.5s, opacity 1.4s $easing;
 
   p {
-    color: #fff;
-    @include h1-rule;
+    color: #000 !important;
+    @include caption-rule;
 
   }
 
@@ -20,20 +20,54 @@
 
   &#animation-label-folate-1 {
     z-index: 1;
-    top: 100px;
-    left: 100px;
+    top: 50px;
+    left: 30px;
   }
-
   &#animation-label-folate-2 {
     z-index: 2;
-    top: 110px;
-    left: 110px;
+    top: 350px;
+    left: 30px;
   }
-
   &#animation-label-folate-3 {
     z-index: 3;
-    top: 120px;
-    left: 120px;
+    top: 720px;
+    left: 30px;
+  }
+  &#animation-label-folate-4 {
+    z-index: 4;
+    top: 707px;
+    left: 363px;
+  }
+  &#animation-label-folate-5 {
+    z-index: 5;
+    top: 664px;
+    left: 760px;
+  }
+
+  &#animation-label-vitamin-1 {
+    z-index: 1;
+    top: 50px;
+    left: 30px;
+  }
+  &#animation-label-vitamin-2 {
+    z-index: 2;
+    top: 300px;
+    left: 30px;
+  }
+  &#animation-label-vitamin-3 {
+    z-index: 3;
+    top: 720px;
+    left: 30px;
+  }
+  &#animation-label-vitamin-4 {
+    z-index: 4;
+    top: 708px;
+    left: 363px;
+  }
+  &#animation-label-vitamin-5 {
+    z-index: 5;
+    top: 667px;
+    left: 765px;
   }
 
 }
