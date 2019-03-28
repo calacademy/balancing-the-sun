@@ -163,6 +163,13 @@
     .thumb-image {
       background-image: url('../img/photos/persons/south-africa.jpg');
     }
+    .marker {
+      &.selected {
+        .dot {
+          margin-bottom: -1px;
+        }
+      }
+    }
   }
 
   // Cairo, Egypt
@@ -208,6 +215,13 @@
     .thumb-image {
       background-image: url('../img/photos/persons/australia.jpg');
     }
+    .marker {
+      &.selected {
+        .dot {
+          margin-bottom: -1px;
+        }
+      }
+    }
   }
 
   // Koshu, Japan
@@ -241,6 +255,13 @@
     }
     .thumb-image {
       background-image: url('../img/photos/persons/argentina.jpg');
+    }
+    .marker {
+      &.selected {
+        .dot {
+          margin-bottom: -1px;
+        }
+      }
     }
   }
 
