@@ -374,11 +374,13 @@ class App extends Component {
     let strPersonInt = parseInt(person.split('-')[1])
     if (strPersonInt === this.state.currentPerson) {
       this.setState({
-        currentPerson: null
+        currentPerson: null,
+        dateLastTouch: new Date()
       })
     } else {
       this.setState({
-        currentPerson: parseInt(strPersonInt)
+        currentPerson: parseInt(strPersonInt),
+        dateLastTouch: new Date()
       })
     }
   }
