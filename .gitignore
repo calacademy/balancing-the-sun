@@ -6,8 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 
 /public/dev-data
-/public/video
-/public/animation
+/public/video/*.mp4
 /build
 /src/**/*.css
 /src/fonts

@@ -13,7 +13,7 @@ $ cd balancing-the-sun
 $ yarn
 ```
 
-Find .env files and fonts.zip in team Google Drive:
+Find .env files, movie.mp4, fonts.zip, and photos.zip in team Google Drive:
 ```
 +-- DME: Web & Interactive
 |   +-- Exhibit Interactives
@@ -22,9 +22,13 @@ Find .env files and fonts.zip in team Google Drive:
 |   |   |   |   +-- Technical
 ```
 
-Copy .env files into root of local balancing-the-sun project
+Copy .env files into root of local project.
 
-Contents of fonts.zip (a “fonts” directory), should be added to project's “src”
+Copy movie.mp4 into "/public/video" directory of local project.
+
+Copy contents of fonts.zip (a “fonts” directory) to project's “/src” directory.
+
+Copy contents of photos.zip (a “photos” directory) to project's “/src/img/”
 directory.
 
 ## Development and Build Notes
