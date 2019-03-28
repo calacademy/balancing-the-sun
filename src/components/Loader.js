@@ -35,6 +35,26 @@ class Loader extends Component {
             <div id="map-2" />
             <div id="map-3" />
             <div id="map-4" />
+            <div id="person-1" />
+            <div id="person-2" />
+            <div id="person-3" />
+            <div id="person-4" />
+            <div id="person-5" />
+            <div id="person-6" />
+            <div id="person-7" />
+            <div id="person-8" />
+            <div id="person-9" />
+            <div id="person-10" />
+            <div id="person-11" />
+            <div id="person-12" />
+            <div id="person-13" />
+            <div id="person-14" />
+            <div id="person-15" />
+            <div id="person-16" />
+            <div id="person-17" />
+            <div id="uv-1" />
+            <div id="uv-2" />
+            <div id="uv-3" />
           </div>
           <div id="loader-animation-images">
             {animFolate}
