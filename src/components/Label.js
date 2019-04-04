@@ -43,11 +43,6 @@ class Label extends Component {
         reveal = true
       }
       else if (this.props.dataLabel['Key']['#markup'] === 'animation-label-vitamin-4') {
-        if ((this.props.animLeft <= -9000) && (this.props.animLeft >= -380000)) {
-          reveal = true
-        }
-      }
-      else if (this.props.dataLabel['Key']['#markup'] === 'animation-label-vitamin-5') {
         if ((this.props.animLeft <= -108000) && (this.props.animLeft >= -170000)) {
           reveal = true
         }

@@ -38,7 +38,7 @@ class Animation extends Component {
         })
         this.setState({
           name: 'vitamin',
-          filebase: 'BalancingTheSun-VitaminD_v04_',
+          filebase: 'BalancingTheSun-VitaminD_v05_',
           frames: 450,
           dataLabels: labels
         })

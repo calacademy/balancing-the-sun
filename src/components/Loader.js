@@ -23,7 +23,7 @@ class Loader extends Component {
         <img key={i} src={process.env.REACT_APP_ANIMATION_PATH + "animation/folate/BalancingTheSun-Folate_v05_" + fiver + ".png"} alt="" />
       )
       animVitamin.push(
-        <img key={i} src={process.env.REACT_APP_ANIMATION_PATH + "animation/vitamin/BalancingTheSun-VitaminD_v04_" + fiver + ".png"} alt="" />
+        <img key={i} src={process.env.REACT_APP_ANIMATION_PATH + "animation/vitamin/BalancingTheSun-VitaminD_v05_" + fiver + ".png"} alt="" />
       )
     }
 
