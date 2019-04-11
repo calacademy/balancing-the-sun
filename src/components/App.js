@@ -26,7 +26,7 @@ class App extends Component {
       dataReady: false,
       dataCredits: null,
       currentLanguage: 'en', // en || es || zh || tl
-      inactivityInt: 50000,
+      inactivityInt: 45000,
       dateLastTouch: null,
       currentPerson: null,
       currentPopup: null // folate || vitamin

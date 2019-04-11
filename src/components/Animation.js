@@ -12,15 +12,19 @@ class Animation extends Component {
       animLeft: 0,
       dataLabels: null
     }
+    this.intervalId = null
   }
 
   componentDidMount() {
     setInterval(() => this._animationState(), 1000)
   }
 
+  componentWillUnmount() {
+    clearInterval(this.intervalId);
+  }
+
   componentDidUpdate(prevProps, prevState) {
     if (prevProps.currentPopup !== this.props.currentPopup) {
-
       if (this.props.currentPopup === 'folate') {
         let labels = Object.values(this.props.parsedDataBasics).filter((item) => {
           return item[0]["Key"]["#markup"].indexOf("animation-label-folate") !== -1
@@ -51,8 +55,6 @@ class Animation extends Component {
           dataLabels: null
         })
       }
-
-
     }
   }
 
