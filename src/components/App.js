@@ -157,7 +157,7 @@ class App extends Component {
     })
 
     // verify some data properties
-    const requiredBasicsItemCount = 17
+    const requiredBasicsItemCount = 19
     const requiredPersonCount = 17
     const requiredInfoUVCount = 3
     const requiredInfoSkinPigment = 5
@@ -196,7 +196,9 @@ class App extends Component {
       ['animation-label-vitamin-1', 'animationLabelVitamin1'],
       ['animation-label-vitamin-2', 'animationLabelVitamin2'],
       ['animation-label-vitamin-3', 'animationLabelVitamin3'],
-      ['animation-label-vitamin-4', 'animationLabelVitamin4']
+      ['animation-label-vitamin-4', 'animationLabelVitamin4'],
+      ['attract-header', 'attractHeader'],
+      ['attract-cta', 'attractCta']
     ]
     let itemsProcessedBasics = 0
     arrDataBasicsItemsToParse.forEach((item, i, arr) => {
