@@ -44,29 +44,22 @@ $easing: cubic-bezier(.215, .61, .355, 1);
   }
 }
 
-@mixin h1-rule {
+@mixin attract-h1-rule {
   font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
-  font-size: 40px;
-  line-height: 47px;
+  font-size: 78px;
+  line-height: 78px;
 }
-
-/*@mixin h2-rule {
-  font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
-  font-size: 35px;
-  line-height: 40px;
-}
-
-@mixin h3-rule {
+@mixin attract-cta-rule {
   font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
   font-size: 22px;
   line-height: 26px;
 }
 
-@mixin h4-rule {
+@mixin h1-rule {
   font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
-  font-size: 14px;
-  line-height: 16px;
-}*/
+  font-size: 40px;
+  line-height: 47px;
+}
 
 @mixin body1-rule {
   font-family: 'W-Book', 'SourceHanSansCN-Normal';
@@ -80,7 +73,6 @@ $easing: cubic-bezier(.215, .61, .355, 1);
   font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
   font-size: 14px;
   line-height: 20px;
-  //letter-spacing: -0.5px;
 }
 
 @mixin cta-rule {
@@ -88,7 +80,6 @@ $easing: cubic-bezier(.215, .61, .355, 1);
   font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
   font-size: 14px;
   line-height: 14px;
-  //letter-spacing: -0.5px;
 }
 
 @mixin video-caption-rule {
@@ -97,18 +88,6 @@ $easing: cubic-bezier(.215, .61, .355, 1);
   line-height: 56px;
   text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.85);
 }
-
-/*@mixin body2-rule {
-  font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
-  font-size: 16px;
-  line-height: 19px;
-}
-
-@mixin body3-rule {
-  font-family: 'W-Book', 'SourceHanSansCN-Normal';
-  font-size: 14px;
-  line-height: 16px;
-}*/
 
 @mixin p1-info-style {
   background-image: url('../img/uv-animation-callout-high.png');

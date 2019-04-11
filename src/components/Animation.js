@@ -57,12 +57,14 @@ class Animation extends Component {
   }
 
   _animationState() {
-    let pos = window.getComputedStyle(document.querySelector('#container-images')).left
-    pos = pos.replace('px', '')
-    pos = parseInt(pos)
-    this.setState({
-      animLeft: pos
-    })
+    if (document.querySelector('#container-images')) {
+      let pos = window.getComputedStyle(document.querySelector('#container-images')).left
+      pos = pos.replace('px', '')
+      pos = parseInt(pos)
+      this.setState({
+        animLeft: pos
+      })
+    }
   }
 
   render() {

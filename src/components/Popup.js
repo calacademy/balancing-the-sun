@@ -34,7 +34,7 @@ class Popup extends Component {
             <h1 dangerouslySetInnerHTML={markupBasicsPopupHeader} />
             <p dangerouslySetInnerHTML={markupBasicsPopupDescription} />
           </div>
-          <div id="container-animation">
+          <div className="container-animation">
             <Animation
               language={this.props.language}
               dataReady={this.props.dataReady}

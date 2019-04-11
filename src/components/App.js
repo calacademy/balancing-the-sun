@@ -26,11 +26,14 @@ class App extends Component {
       dataReady: false,
       dataCredits: null,
       currentLanguage: 'en', // en || es || zh || tl
-      inactivityInt: 60000,
+      inactivityInt: 50000,
       dateLastTouch: null,
       currentPerson: null,
       currentPopup: null // folate || vitamin
     }
+
+    // Attract handler
+    this.handlerCloseAttract = this._closeAttract.bind(this)
 
     // Loader handler
     this.handlerLoadComplete = this._loadComplete.bind(this)
@@ -88,7 +91,7 @@ class App extends Component {
       if ((this.state.dateLastTouch < check) && (this.state.dataReady) && (this.state.display !== 'video')) {
         this.setState({
           currentLanguage: 'en',
-          display: 'main',
+          display: 'attract',
           currentPerson: null,
           currentPopup: null,
           dateLastTouch: null
@@ -313,8 +316,10 @@ class App extends Component {
 
   _loadComplete() {
     this.setState({
-      display: 'main'
+      display: 'main',
+      dateLastTouch: new Date()
     })
+    setInterval(() => this._inactivityCheck(), 5000)
   }
 
   _selectLanguage(e, lang) {
@@ -386,17 +391,19 @@ class App extends Component {
     }
   }
 
+  _closeAttract() {
+    this.setState({
+      display: 'main',
+      dateLastTouch: new Date()
+    })
+  }
+
   componentDidMount() {
     this._getData()
     this._getDataCredits()
-
-    setInterval(() => this._inactivityCheck(), 5000)
+    // put this here to re-init instantStyle
     setTimeout(() => {
       this.instantStyle = { display: 'block' }
-      // put this here to re-init instantStyle
-      this.setState({
-        dateLastTouch: new Date()
-      })
     }, 1000)
 
   }
@@ -440,8 +447,17 @@ class App extends Component {
             display={this.state.display}
            />
         </div>
+        <div id="container-attract"
+          className={this.state.display !== 'attract' ? 'hide' : ''}>
+          <Attract
+            parsedDataBasics={this.state.parsedDataBasics}
+            language={this._getLanguageName(this.state.currentLanguage)}
+            dataReady={this.state.dataReady}
+            handlerCloseAttract={this.handlerCloseAttract}
+          />
+        </div>
         <div id="container-credits"
-          className={this.state.display !== 'credits' ? 'hide-anim' : ''}>
+          className={this.state.display !== 'credits' ? 'hide' : ''}>
           <Credits
             display={this.state.display}
             dataCredits={this.state.dataCredits}
@@ -450,7 +466,7 @@ class App extends Component {
            />
         </div>
         <div id="container-video"
-          className={(this.state.display !== 'video' ) ? 'hide-anim' : ''}>
+          className={(this.state.display !== 'video' ) ? 'hide' : ''}>
           <Video
             dataReady={this.state.dataReady}
             language={this.state.currentLanguage}
@@ -460,7 +476,7 @@ class App extends Component {
         </div>
         <div
           id="container-popup"
-          className={(this.state.display !== 'popup' ) ? 'hide-anim' : ''}
+          className={(this.state.display !== 'popup' ) ? 'hide' : ''}
           >
           <Popup
             display={this.state.display}
@@ -469,13 +485,6 @@ class App extends Component {
             language={this._getLanguageName(this.state.currentLanguage)}
             currentPopup={this.state.currentPopup}
             handlerClosePopup={this.handlerClosePopup}
-          />
-        </div>
-        <div id="container-attract"
-          className={this.state.display !== 'attract' ? 'hide' : ''}>
-          <Attract
-            dataReady={this.state.dataReady}
-            language={this._getLanguageName(this.state.currentLanguage)}
           />
         </div>
         <div id="container-main"

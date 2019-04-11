@@ -16,6 +16,7 @@ class Loader extends Component {
 
     let animFolate = []
     let animVitamin = []
+    let animAttract = []
 
     for (let i = 0; i < 450; i++) {
       let fiver = ('0000' + i).slice(-5)
@@ -24,6 +25,13 @@ class Loader extends Component {
       )
       animVitamin.push(
         <img key={i} src={process.env.REACT_APP_ANIMATION_PATH + "animation/vitamin/BalancingTheSun-VitaminD_v05_" + fiver + ".png"} alt="" />
+      )
+    }
+
+    for (let i = 0; i < 895; i++) {
+      let fiver = ('0000' + i).slice(-5)
+      animAttract.push(
+        <img key={i} src={process.env.REACT_APP_ANIMATION_PATH + "animation/attract/BalanceAttract_" + fiver + ".jpg"} alt="" />
       )
     }
 
@@ -57,6 +65,7 @@ class Loader extends Component {
             <div id="uv-3" />
           </div>
           <div id="loader-animation-images">
+            {animAttract}
             {animFolate}
             {animVitamin}
           </div>

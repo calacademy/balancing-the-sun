@@ -8,10 +8,6 @@
   color: #000;
   background-color: #000;
 
-  /*background-image: url('../img/temp-guide.png');
-  background-repeat: no-repeat;
-  background-position: 0 0;*/
-
   #container-loader {
     width: 1920px;
     height: 1080px;
@@ -21,12 +17,21 @@
     overflow: hidden;
   }
 
+  #container-attract {
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    background-color: #000;
+  }
+
   #container-translator {
     width: 1920px;
     height: 45px;
     overflow: hidden;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     background-color: #000;
   }
 
@@ -35,9 +40,8 @@
     height: 1080px;
     overflow: hidden;
     position: absolute;
-    z-index: 3;
+    z-index: 4;
     background-color: #000;
-    @include anim-hide-rule;
   }
 
   #container-video {
@@ -46,9 +50,8 @@
     height: 1035px;
     overflow: hidden;
     position: absolute;
-    z-index: 3;
+    z-index: 5;
     background-color: #000;
-    @include anim-hide-rule;
   }
 
   #container-popup {
@@ -56,8 +59,7 @@
     height: 1035px;
     position: absolute;
     top: 45px;
-    z-index: 2;
-    //opacity: 0.5;
+    z-index: 3;
   }
 
   #container-main {
@@ -66,8 +68,7 @@
     height: 1035px;
     overflow: hidden;
     position: absolute;
-    z-index: 3;
-    //opacity: 0.5;
+    z-index: 4;
   }
 
   .hide {
