@@ -23,14 +23,15 @@
   button {
     position: absolute;
     z-index: 1;
-    top: 32px;
-    right: 50px;
-    width: 62px;
-    height: 62px;
-    background-image: url('../img/close-btn.svg');
+    top: 17px;
+    right: 35px;
+    width: 92px;
+    height: 92px;
+    background-image: url('../img/close-btn-white-drop-shadow.png');
     background-repeat: no-repeat;
     background-position: 0 0;
     background-color: transparent;
+    background-size: 100%;
     &:active {
       opacity: 0.7;
     }
