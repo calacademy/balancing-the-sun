@@ -278,9 +278,13 @@ class Main extends Component {
           >
             <div
               id="video-thumb"
+            />
+            <div
+              id="video-thumb-play-button"
               onTouchEnd={() => this.props.handlerOpenVideo()}
               onClick={() => this.props.handlerOpenVideo()}
             />
+
             <div className="info-video-text">
               <h1 dangerouslySetInnerHTML={markupBasicsVideoHeader} />
               <div className="info-video-columns">
