@@ -231,6 +231,11 @@ class Main extends Component {
         id="main"
         className={styleUV}
         >
+        <div
+           id="container-map-reset"
+           onTouchEnd={() => this.props.handlerClosePerson()}
+           onClick={() => this.props.handlerClosePerson()}
+        />
         <div id="container-persons">
           {persons}
         </div>

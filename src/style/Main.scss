@@ -22,6 +22,7 @@
   }
 
   #top-left {
+    pointer-events: none;
     position: absolute;
     z-index: 2;
     padding: 44px 0 0 50px;
@@ -236,12 +237,23 @@
 
   }
 
+  #container-map-reset {
+    width: 1920px;
+    height: 685px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+  }
+
   #container-persons {
+    pointer-events: none;
     width: 1580px;
     height: 685px;
     overflow: hidden;
     position: absolute;
-    top: 45px;
+    top: 0;
     right: 0;
     z-index: 2;
   }

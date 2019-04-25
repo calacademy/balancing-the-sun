@@ -48,6 +48,9 @@ class App extends Component {
     // Main > Person handler
     this.handlerOnPersonSelect = this._onPersonSelect.bind(this)
 
+    // map-reset handler
+    this.handlerClosePerson = this._closePerson.bind(this)
+
     // Main handler
     this.handlerOpenVideo = this._openVideo.bind(this)
     this.handlerOpenPopup = this._openPopup.bind(this)
@@ -375,6 +378,13 @@ class App extends Component {
     })
   }
 
+  _closePerson() {
+    this.setState({
+      currentPerson: null,
+      dateLastTouch: new Date()
+    })
+  }
+
   _onPersonSelect(e, person) {
     e.preventDefault()
     let strPersonInt = parseInt(person.split('-')[1])
@@ -500,6 +510,7 @@ class App extends Component {
             handlerOnPersonSelect={this.handlerOnPersonSelect}
             handlerOpenVideo={this.handlerOpenVideo}
             handlerOpenPopup={this.handlerOpenPopup}
+            handlerClosePerson={this.handlerClosePerson}
           />
         </div>
       </div>

@@ -5,7 +5,7 @@
 }
 
 .person {
-
+  pointer-events: auto;
   position: absolute;
   z-index: 1;
 
@@ -85,7 +85,7 @@
 
   // Bugarama, Burundi
   &#person-1 {
-    top: 355px;
+    top: 400px;
     left: 240px;
     .dot {
       background-color: $sp1-color;
@@ -97,7 +97,7 @@
 
   // Zinder, Niger
   &#person-2 {
-    top: 275px;
+    top: 320px;
     left: 160px;
     .dot {
       background-color: $sp2-color;
@@ -109,7 +109,7 @@
 
   // Colombo, Sri Lanka
   &#person-3 {
-    top: 300px;
+    top: 345px;
     left: 460px;
     .dot {
       background-color: $sp3-color;
@@ -121,7 +121,7 @@
 
   // Buka, Papua New Guinea
   &#person-4 {
-    top: 345px;
+    top: 390px;
     left: 760px;
     .dot {
       background-color: $sp4-color;
@@ -133,7 +133,7 @@
 
   // El Alto, Bolivia
   &#person-5 {
-    top: 390px;
+    top: 435px;
     left: 1325px;
     .dot {
       background-color: $sp5-color;
@@ -145,7 +145,7 @@
 
   // Pietermaritzburg, South Africa
   &#person-6 {
-    top: 480px;
+    top: 525px;
     left: 245px;
     .dot {
       background-color: $sp6-color;
@@ -174,7 +174,7 @@
 
   // Cairo, Egypt
   &#person-7 {
-    top: 210px;
+    top: 255px;
     left: 250px;
     .dot {
       background-color: $sp7-color;
@@ -186,7 +186,7 @@
 
   // Yangshuo, China
   &#person-8 {
-    top: 235px;
+    top: 280px;
     left: 590px;
     .dot {
       background-color: $sp8-color;
@@ -197,7 +197,7 @@
   }
   // Lismore, Australia
   &#person-9 {
-    top: 480px;
+    top: 525px;
     left: 740px;
     .dot {
       background-color: $sp9-color;
@@ -226,7 +226,7 @@
 
   // Koshu, Japan
   &#person-10 {
-    top: 175px;
+    top: 210px;
     left: 700px;
     .dot {
       background-color: $sp10-color;
@@ -238,7 +238,7 @@
 
   // Buenos Aires, Argentina
   &#person-11 {
-    bottom: 190px;
+    bottom: 145px;
     left: 1360px;
     .dot {
       background-color: $sp11-color;
@@ -267,7 +267,7 @@
 
   // Idaho Falls, Idaho, United States
   &#person-12 {
-    top: 165px;
+    top: 210px;
     left: 1140px;
     .dot {
       background-color: $sp12-color;
@@ -279,7 +279,7 @@
 
   // Warsaw, Poland
   &#person-13 {
-    top: 115px;
+    top: 160px;
     left: 190px;
     .dot {
       background-color: $sp13-color;
@@ -291,7 +291,7 @@
 
   // Abakan, Russia
   &#person-14 {
-    top: 55px;
+    top: 100px;
     left: 500px;
     .dot {
       background-color: $sp14-color;
@@ -303,7 +303,7 @@
 
   // Utqiagvik, Alaska, United States
   &#person-15 {
-    top: 45px;
+    top: 90px;
     left: 990px;
     .dot {
       background-color: $sp15-color;
@@ -315,7 +315,7 @@
 
   // Vancouver, Canada
   &#person-16 {
-    top: 130px;
+    top: 175px;
     left: 1100px;
     .dot {
       background-color: $sp16-color;
@@ -327,7 +327,7 @@
 
   // Ilulissat,Greenland
   &#person-17 {
-    top: 50px;
+    top: 95px;
     left: 1387px;
     .dot {
       background-color: $sp17-color;
