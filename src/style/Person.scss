@@ -14,9 +14,9 @@
     &.selected {
 
       .dot {
-        border: 2px solid #000;
-        margin-left: -1px;
-        margin-top: -1px;
+        border: 3px solid #000;
+        margin-left: -2px;
+        margin-top: -2px;
       }
       .line {
         display: block;
@@ -27,7 +27,18 @@
 
     }
 
+    .dot-click-zone {
+      position: absolute;
+      top: -12px;
+      left: -12px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: transparent;
+    }
+
     .dot {
+      pointer-events: none;
       position: absolute;
       top: 0;
       width: 23px;
@@ -43,7 +54,7 @@
       position: absolute;
       top: 25px;
       display: none;
-      width: 12px;
+      width: 11px;
       height: 50px;
       border-right: 3px solid #000;
     }
@@ -147,6 +158,10 @@
   &#person-6 {
     top: 525px;
     left: 245px;
+    .dot-click-zone {
+      top: unset;
+      bottom: -12px;
+    }
     .dot {
       background-color: $sp6-color;
       top: unset;
@@ -199,6 +214,10 @@
   &#person-9 {
     top: 525px;
     left: 740px;
+    .dot-click-zone {
+      top: unset;
+      bottom: -12px;
+    }
     .dot {
       background-color: $sp9-color;
       top: unset;
@@ -240,6 +259,10 @@
   &#person-11 {
     bottom: 145px;
     left: 1360px;
+    .dot-click-zone {
+      top: unset;
+      bottom: -12px;
+    }
     .dot {
       background-color: $sp11-color;
       top: unset;

@@ -28,9 +28,12 @@ class Person extends Component {
               />
             </div>
             <div
-              className={'dot'}
+              className="dot-click-zone"
               onTouchEnd={(e) => this.props.handlerOnPersonSelect(e, this.props.id)}
               onClick={(e) => this.props.handlerOnPersonSelect(e, this.props.id)}
+            />
+            <div
+              className={'dot'}
             />
             <div className={'line'} />
           </div>
