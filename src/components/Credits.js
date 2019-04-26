@@ -28,6 +28,7 @@ class Credits extends Component {
         scrollActive: true
       })
     }
+    this.props.handlerScrollCredits()
   }
 
   render() {

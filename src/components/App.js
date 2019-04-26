@@ -44,6 +44,7 @@ class App extends Component {
 
     // Credits handlers
     this.handlerCloseCredits = this._closeCredits.bind(this)
+    this.handlerScrollCredits = this._scrollCredits.bind(this)
 
     // Main > Person handler
     this.handlerOnPersonSelect = this._onPersonSelect.bind(this)
@@ -347,6 +348,11 @@ class App extends Component {
       dateLastTouch: new Date()
     })
   }
+  _scrollCredits() {
+    this.setState({
+      dateLastTouch: new Date()
+    })
+  }
 
   _openPopup(e, p) {
     e.preventDefault()
@@ -472,6 +478,7 @@ class App extends Component {
             display={this.state.display}
             dataCredits={this.state.dataCredits}
             handlerCloseCredits={this.handlerCloseCredits}
+            handlerScrollCredits={this.handlerScrollCredits}
             language={this.state.currentLanguage}
            />
         </div>
