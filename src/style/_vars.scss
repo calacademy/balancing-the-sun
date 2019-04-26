@@ -2,6 +2,8 @@ $blue: #009cde;
 $green: #6cc24a;
 $orange: #f2b944;
 $gray: #676767;
+$light-gray: #929497;
+$dark-gray: #404040;
 
 $yellow: #f1b845;
 $pink: #ea779c;
@@ -53,6 +55,24 @@ $easing: cubic-bezier(.215, .61, .355, 1);
   font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
   font-size: 22px;
   line-height: 26px;
+}
+
+@mixin credits-h1-rule {
+  font-family: 'W-Semibold';
+  font-size: 56px;
+  line-height: 56px;
+}
+
+@mixin credits-h2-rule {
+  font-family: 'W-Book';
+  font-size: 30px;
+  line-height: 36px;
+}
+
+@mixin credits-p-rule {
+  font-family: 'W-Semibold';
+  font-size: 24px;
+  line-height: 32px;
 }
 
 @mixin h1-rule {

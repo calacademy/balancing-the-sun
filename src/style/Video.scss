@@ -9,8 +9,8 @@
   #progress-container {
     z-index: 1;
     position: absolute;
-    top: 32px;
-    left: 50px;
+    top: 33px;
+    right: 48px;
   }
 
   .caption-container {
@@ -23,8 +23,8 @@
   button {
     position: absolute;
     z-index: 1;
-    top: 17px;
-    right: 35px;
+    top: 20px;
+    left: 55px;
     width: 92px;
     height: 92px;
     background-image: url('../img/close-btn-white-drop-shadow.png');
