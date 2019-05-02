@@ -152,6 +152,8 @@ class Main extends Component {
     let markupInfoSkinPigmentHeader = {__html: ''}
     let markupInfoSkinPigmentDescription = {__html: ''}
 
+    let markupBasicsFootnoteDots = {__html: ''}
+
     let persons = []
 
     if (this.props.dataReady) {
@@ -164,6 +166,8 @@ class Main extends Component {
 
       markupBasicsCtaLabelFolate = {__html: this.props.parsedDataBasics.ctaLabelFolate[0][this.props.language]['#markup']}
       markupBasicsCtaLabelVitamin = {__html: this.props.parsedDataBasics.ctaLabelVitamin[0][this.props.language]['#markup']}
+
+      markupBasicsFootnoteDots = {__html: this.props.parsedDataBasics.footnoteDots[0][this.props.language]['#markup']}
 
       if (this.state.currentInfoUV) {
 
@@ -239,6 +243,10 @@ class Main extends Component {
         <div id="container-persons">
           {persons}
         </div>
+        <div
+          id="container-footnote-dots"
+          dangerouslySetInnerHTML={markupBasicsFootnoteDots}
+        />
         <div id="top-left">
           <h1 dangerouslySetInnerHTML={markupBasicsHeader} />
           <p dangerouslySetInnerHTML={markupBasicsDescription} />

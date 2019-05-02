@@ -46,6 +46,12 @@ $easing: cubic-bezier(.215, .61, .355, 1);
   }
 }
 
+@mixin footnote-dots-rule {
+  font-family: 'W-Book', 'SourceHanSansCN-Normal';
+  font-size: 13px;
+  line-height: normal;
+}
+
 @mixin attract-h1-rule {
   font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
   font-size: 78px;
