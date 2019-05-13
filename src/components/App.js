@@ -1,19 +1,17 @@
 import React, { Component } from 'react'
 import '../style/App.css'
-import Loader from './Loader'
 import Translator from './Translator'
 import Credits from './Credits'
 import Video from './Video'
 import Attract from './Attract'
 import Main from './Main'
 import Popup from './Popup'
-//import fetchJsonp from 'fetch-jsonp'
 
 class App extends Component {
   constructor() {
     super()
     this.state = {
-      display: 'loader', // loader || attract || main || popup || video || credits
+      display: 'main', // attract || main || popup || video || credits
       data: null,
       parsedDataBasics: null,
       parsedDataPersons: [{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}], // assumes 17 persons FOR NOW
@@ -34,9 +32,6 @@ class App extends Component {
 
     // Attract handler
     this.handlerCloseAttract = this._closeAttract.bind(this)
-
-    // Loader handler
-    this.handlerLoadComplete = this._loadComplete.bind(this)
 
     // Translator handlers
     this.handlerSelectLanguage = this._selectLanguage.bind(this)
@@ -61,9 +56,6 @@ class App extends Component {
 
     // Video handler
     this.handlerCloseVideo = this._closeVideo.bind(this)
-
-    // prevent screen flicker on init load
-    this.instantStyle = { display: 'none' }
 
   }
 
@@ -416,11 +408,6 @@ class App extends Component {
   componentDidMount() {
     this._getData()
     this._getDataCredits()
-    // put this here to re-init instantStyle
-    setTimeout(() => {
-      this.instantStyle = { display: 'block' }
-    }, 1000)
-
   }
 
   componentDidUpdate(prevProps, prevState) {
@@ -443,18 +430,9 @@ class App extends Component {
 
     return (
       <div
-        style={this.instantStyle}
         id="app">
-        <div id="container-loader"
-          className={this.state.display !== 'loader' ? 'hide' : ''}>
-          <Loader
-            // needs to verify all data
-            dataReady={this.state.dataReady}
-            handlerLoadComplete={this.handlerLoadComplete}
-          />
-        </div>
         <div id="container-translator"
-          className={this.state.display === 'loader' ? 'hide' : ''}>
+          >
           <Translator
             language={this.state.currentLanguage}
             handlerSelectLanguage={this.handlerSelectLanguage}
