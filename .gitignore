@@ -11,7 +11,5 @@ yarn-error.log*
 /src/**/*.css
 /src/fonts
 /src/img/photos
-.env.development
-.env.production
 
 .DS_Store

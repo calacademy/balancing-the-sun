@@ -7,7 +7,7 @@ import Video from './Video'
 import Attract from './Attract'
 import Main from './Main'
 import Popup from './Popup'
-import fetchJsonp from 'fetch-jsonp'
+//import fetchJsonp from 'fetch-jsonp'
 
 class App extends Component {
   constructor() {
@@ -106,8 +106,7 @@ class App extends Component {
 
   _getDataCredits() {
     var _this = this
-    fetchJsonp(process.env.REACT_APP_REST_URL_CREDITS)
-    //fetch("./dev-data/dataCredits.json")
+    fetch(process.env.REACT_APP_REST_URL_CREDITS)
     .then((response) => {
       return response.json()
     }).then((data) => {
@@ -125,8 +124,7 @@ class App extends Component {
 
   _getData() {
     const _this = this
-    fetchJsonp(process.env.REACT_APP_REST_URL_TEXT, { timeout: 10000, })
-    //fetch("./dev-data/data.json")
+    fetch(process.env.REACT_APP_REST_URL_TEXT)
     .then((response) => {
       return response.json()
     }).then((data) => {

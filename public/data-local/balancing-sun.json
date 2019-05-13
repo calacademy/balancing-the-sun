@@ -1,0 +1,1033 @@
+[
+  {
+    "title_administrative": "Balancing the Sun Basics",
+    "items": [
+      {
+        "Key": {
+          "#markup": "header"
+        },
+        "English": {
+          "#markup": "<p>Why Does Human Skin Color Vary?</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>¿Por qué varía el color de la piel humana?</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>人為什麼會有不同的膚色？</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Bakit Iba-iba<br />\nng Kulay ng Balat<br />\nng Tao?</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "description"
+        },
+        "English": {
+          "#markup": "<p>Your skin color is an adaptation to the Sun’s ultraviolet (UV) light. Human populations living around the world evolved different skin colors as a response to varied intensities of UV light.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>El color de la piel es una adaptación a la luz ultravioleta (UV) del Sol.<br />\nLas poblaciones humanas que viven en todo el mundo desarrollaron diferentes colores de piel como respuesta a las diversas intensidades de luz UV.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>人的膚色是適應太陽照射的紫外線 (UV) 的結果。為了適應不同強度的紫外線，生活在世界各地的人們進化出了不同的膚色。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ang kulay ng balat mo ay isang pakikibagay sa ultrabiyoletang (UV) liwanag ng Araw. Ang mga populasyon ng tao na namumuhay sa iba't ibang panig ng daigdig ay nag-angkop ng iba't ibang kulay ng balat bilang tugon sa iba't ibang tindi ng UV na liwanag.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "video-header"
+        },
+        "English": {
+          "#markup": "<p>Adapting melanin</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Adaptando la melanina</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>適應黑色素</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Melaninang nag-aangkop</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "video-description"
+        },
+        "English": {
+          "#markup": "<p>Sunlight affects two vitamins that are essential to our health and ability to have children. Our skin needs UV light to make vitamin D. But too much UV light can destroy the body’s supply of folate,<br />\na B vitamin. How does our skin balance these needs in differing UV environments? The answer is melanin.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>La luz solar afecta dos vitaminas que son esenciales para nuestra salud y capacidad de tener hijos. Nuestra piel necesita luz UV para fabricar vitamina D. Pero demasiada luz UV puede destruir el suministro de folato en el cuerpo, una vitamina B. ¿Cómo equilibra nuestra piel estas necesidades en diferentes entornos de luz UV? La respuesta es la melanina.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>陽光會影響對人類的健康和生育能力至關重要的兩種維生素。我們的皮膚需要紫外線來合成維生素 D，但是過多的紫外線照射會破壞人體內的葉酸，葉酸是一種維生素 B。我們的皮膚是如何在不同強度的紫外線環境中平衡這些需求的呢？答案是黑色素。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Nakaaapekto ang sinag ng araw sa dalawang bitaminang mahalaga sa ating kalusugan at kakayahang magkaanak. Kailangan ng ating balat ang UV na liwanag para makagawa ng bitamina D. Pero ang malabis na UV na liwanag ay makasisira ng imbak ng folate, isang bitamina B, sa ating katawan. Paano binabalanse ng ating balat ang mga pangangailangang ito sa magkakaibang kapaligirang UV? Ang sagot ay melanina.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "cta-label-folate"
+        },
+        "English": {
+          "#markup": "<p>What is folate?</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>¿Qué es el folato?</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>什麼是葉酸？</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ano ang folate?</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "cta-label-vitamin"
+        },
+        "English": {
+          "#markup": "<p>What is vitamin D?</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>¿Qué es la vitamina D?</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>什麼是維生素 D？</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ano ang bitamina D?</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "explanation-folate"
+        },
+        "English": {
+          "#markup": "<p>Folate is a multitasking B vitamin that’s crucial to good health.<br />\nIt helps build DNA and supports cell replication.</p>\n<p>Folate deficiency during pregnancy can result in birth defects.<br />\nIn men, folate deficiency hinders sperm production.</p>\n<p>As folate passes through blood vessels in the skin,<br />\nit can be destroyed by penetrating UV light.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>El folato es una vitamina B que cumple varias funciones y que es crucial para una buena salud. Ayuda a fabricar el ADN y apoya<br />\nla replicación celular.</p>\n<p>La deficiencia de folato durante el embarazo puede provocar defectos de nacimiento. En los hombres, la deficiencia de folato dificulta la producción de esperma.</p>\n<p>A medida que el folato atraviesa los vasos sanguíneos de la piel, puede ser destruido por la luz UV que penetra.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>葉酸是一種多功能的維生素B，對身體健康非常重要。它能幫助構建 DNA 並支援細胞複製。</p>\n<p>孕期葉酸不足可能會導致出生缺陷。對男性來說，葉酸不足會妨礙精子的生成。</p>\n<p>當葉酸經過皮膚下的血管時，可能會被穿透皮膚的紫外線破壞。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ang folate ay isang bitamina B na maraming magkakasabay na gawain at napakahalaga nito sa magandang kalusugan. Tumutulong ito sa pagbubuo ng DNA at sumusuporta sa pagkopya ng mga selula.</p>\n<p>Maaaring magresulta ang kakulangan sa folate habang nagbubuntis sa mga depekto sa ipapanganak na sanggol. Sa mga lalaki, nakahahadlang ang kakulangan sa folate sa produksiyon ng semilya.</p>\n<p>Habang dumadaan ang folate sa mga daluyan ng dugo sa balat, maaari itong masira ng pumapasok na UV na liwanag.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "explanation-vitamin"
+        },
+        "English": {
+          "#markup": "<p>Vitamin D helps us absorb calcium, contributing to bone health, wound healing, and more. </p>\n<p>Shortages in vitamin D can result in soft or misshapen bones. During pregnancy, vitamin D is critical to normal fetal growth.</p>\n<p>Our skin can only make vitamin D if it is exposed to UV light.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>La vitamina D nos ayuda a absorber el calcio, lo que contribuye a<br />\nla salud de los huesos, la curación de las heridas y mucho más. </p>\n<p>Las deficiencias en vitamina D pueden provocar huesos blandos o deformes. Durante el embarazo, la vitamina D es crucial para<br />\nel crecimiento normal del feto.</p>\n<p>Nuestra piel solo puede fabricar vitamina D si está expuesta<br />\na luz UV.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>維生素 D 可以幫助人體吸收鈣質，促進骨骼健康和傷口癒合等。 </p>\n<p>缺乏維生素 D 會導致骨骼變軟或畸形。在懷孕期間，維生素 D 對胎兒的正常發育非常重要。</p>\n<p>我們的皮膚只有暴露在紫外線下才能合成維生素 D。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Tumutulong ang bitamina D sa pagsipsip ng kalsiyo, na nakakapag-ambag sa kalusugan ng buto, paggaling ng sugat, at iba pa. </p>\n<p>Maaaring magresulta ang kakulangan sa bitamina D sa marupok o baluktot na mga buto. Habang nagbubuntis, napakahalaga ng bitamina D sa normal na paglaki ng fetus.</p>\n<p>Makagagawa lamang ng bitamina D ang ating balat kung nabibilad ito sa UV na liwanag.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "animation-label-folate-1"
+        },
+        "English": {
+          "#markup": "<p>Sunlight</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Luz del sol</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>陽光</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Liwanag ng araw</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "animation-label-folate-2"
+        },
+        "English": {
+          "#markup": "<p>Epidermis</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Epidermis</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>表皮</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Epidermis</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "animation-label-folate-3"
+        },
+        "English": {
+          "#markup": "<p>Dermis</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Dermis</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>真皮</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Dermis</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "animation-label-folate-4"
+        },
+        "English": {
+          "#markup": "<p>Blood vessel</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Vaso sanguíneo</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>血管</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Daluyan ng dugo</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "animation-label-folate-5"
+        },
+        "English": {
+          "#markup": "<p>Folate</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Folato</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>葉酸</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Folate</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "animation-label-vitamin-1"
+        },
+        "English": {
+          "#markup": "<p>Sunlight</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Luz del sol</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>陽光</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Liwanag ng araw</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "animation-label-vitamin-2"
+        },
+        "English": {
+          "#markup": "<p>Epidermis</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Epidermis</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>表皮</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Epidermis</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "animation-label-vitamin-3"
+        },
+        "English": {
+          "#markup": "<p>Dermis</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Dermis</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>真皮</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Dermis</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "animation-label-vitamin-4"
+        },
+        "English": {
+          "#markup": "<p>Vitamin D</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Vitamina D</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>維生素D</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Bitamina D</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "attract-header"
+        },
+        "English": {
+          "#markup": "<p>Why Does Human Skin Color Vary?</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>¿Por qué varía el color de la piel humana?</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>人為什麼會有不同的膚色？</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Bakit Iba-iba ang Kulay ng Balat ng Tao?</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "attract-cta"
+        },
+        "English": {
+          "#markup": "<p>Tap to explore</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Toca para explorar</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>輕觸開始探索</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Tumapik (tap) para maggalugad</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "footnote-dots"
+        },
+        "English": {
+          "#markup": "<p>Dots show average skin tone predicted by UV intensity</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Los puntos muestran el tono de piel promedio previsto por la intensidad de luz UV</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>圓點顯示由紫外線強度預測的平均膚色</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p> </p>\n<p>Ipinakikita ng mga tuldok ang karaniwang kulay na balat na nahuhulaan batay sa tindi ng UV</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Info UV Low",
+    "items": [
+      {
+        "Key": {
+          "#markup": "header"
+        },
+        "English": {
+          "#markup": "<p>Low UV</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Nivel bajo de rayos UV</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>低紫外線</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Mababang UV</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "description"
+        },
+        "English": {
+          "#markup": "<p>Near the poles, less UV light from the Sun hits Earth. Skin needs UV light in order to make vitamin D, which is necessary for bone health and reproduction.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Cerca de los polos, llega menos luz UV del Sol a la Tierra. La piel necesita luz UV para fabricar vitamina D, que es necesaria para la salud de los huesos y la reproducción.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>在極地附近，來自太陽的紫外線較少。皮膚需要紫外線來合成維生素 D，而維生素 D 是骨骼健康和生殖的必要元素。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Malapit sa mga polo, mas kaunting UV na liwanag mula sa Araw ang tumatama sa Mundo. Kailangan ng balat ang UV na liwanag para makagawa ng bitamina D, na kinakailangan sa kalusugan ng buto at pagpaparami.</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Info UV Medium",
+    "items": [
+      {
+        "Key": {
+          "#markup": "header"
+        },
+        "English": {
+          "#markup": "<p>Mid UV</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Nivel medio de rayos UV</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>中紫外線</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Katamtamang UV</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "description"
+        },
+        "English": {
+          "#markup": "<p>At midlatitudes, less UV light reaches Earth’s surface than near the equator, but more than at the poles. Under moderate UV light, the body must balance the competing needs for folate protection and vitamin D production.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>En latitudes medias, llega menos luz UV a la superficie de<br />\nla Tierra que cerca del ecuador, pero más que en los polos.<br />\nBajo luz UV moderada, el cuerpo debe equilibrar las necesidades contrapuestas para la protección del folato<br />\ny la producción de vitamina D.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>在中緯度地區，到達地面的紫外線比赤道附近少，但是比南北極要多。在適度的紫外線照射下，人體必須對保護葉酸和合成維生素 D 這兩個相互競爭的需求進行平衡。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Sa mga gitnang latitud, mas kaunting UV na liwanag ang umaabot sa rabaw ng Mundo kompara sa malapit sa ekwador, pero mas marami kaysa sa mga polo. Sa ilalim ng katamtamang UV na liwanag, kailangang balansehin ng katawan ang naglalabang pangangailangan para sa proteksiyon ng folate at produksiyon ng bitamina D.</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Info UV High",
+    "items": [
+      {
+        "Key": {
+          "#markup": "header"
+        },
+        "English": {
+          "#markup": "<p>High UV</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Nivel alto de rayos UV</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>高紫外線</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Mataas na UV</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "description"
+        },
+        "English": {
+          "#markup": "<p>Near the equator, UV light from the Sun is most intense.<br />\nUnder high UV light conditions, the body’s supply of folate (an important nutrient for reproduction and cell health) is at greater risk of destruction by sunlight.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Cerca del ecuador, la luz UV del Sol es más intensa.<br />\nEn condiciones con un alto nivel de luz UV, el suministro del cuerpo de folato (nutriente importante para la reproducción, y<br />\nla salud de las células) corre mayor riesgo de ser destruido por<br />\nla luz solar.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>在赤道附近，太陽照射的紫外線最為強烈。在高紫外線環境下，人體的葉酸（對生殖能力和細胞健康很重要的營養素）供應更容易被陽光破壞。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Malapit sa ekwador, pinakamatindi ang UV na liwanag mula sa Araw. Sa mga kondisyong mataas ang UV na liwanag, ang imbak ng folate (isang mahalagang sustansiya sa reproduksiyon at sa kalusugan ng selula) ng katawan ay nasa mas mataas na panganib na masira ng sinag ng araw.</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Info Skin Pigment High",
+    "items": [
+      {
+        "Key": {
+          "#markup": "header"
+        },
+        "English": {
+          "#markup": "<p>Darker skin tones are typical</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Son típicos los tonos de piel más oscuros.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>深膚色較為常見</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Karaniwan ang mga mas maitim na kulay ng balat</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "description"
+        },
+        "English": {
+          "#markup": "<p>Highly pigmented skin limits the amount of UV light that can penetrate the skin. Under intense sunlight, enough UV can get through to make vitamin D, but much is blocked by abundant melanin, providing protection for folate molecules.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>La piel con alta pigmentación limita la cantidad de luz UV que puede penetrar en la piel. Bajo luz solar intensa, suficiente luz UV puede atravesar para fabricar vitamina D, pero gran parte es bloqueada por la abundancia de melanina, brindando protección para las moléculas de folato.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>深色素皮膚能限制穿透皮膚的紫外線光量。在強烈的陽光下，有足夠的紫外線可以穿透皮膚來合成維生素 D，但是很多紫外線被大量的黑色素擋住，從而為葉酸分子提供保護。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Naglalagay ang balat na mataas ang pigmentasyon ng limitasyon sa dami ng UV na liwanag na kayang pumasok sa balat. Sa ilalim ng matinding sinag ng araw, sapat na UV ang makakapasok para makagawa ng bitamina D, pero marami ang mahaharang ng saganang melanina, na magbibigay ng proteksiyon sa mga molekulang folate.</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Info Skin Pigment Moderate",
+    "items": [
+      {
+        "Key": {
+          "#markup": "header"
+        },
+        "English": {
+          "#markup": "<p>Medium skin tones are typical</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Son típicos los tonos de piel medios</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>中等膚色較為常見</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Karaniwan ang mga katamtamang kulay ng balat</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "description"
+        },
+        "English": {
+          "#markup": "<p>Moderate pigmentation blocks some UV light to protect folate but allows some light to penetrate for vitamin D production. Over time, our species has moved around a lot. When groups of humans moved to regions with different UV intensity, their skin slowly adapted over thousands of years. Darker and lighter skin tones both evolved multiple times.  </p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>La pigmentación moderada bloquea parte de la luz UV para proteger el folato, pero permite que cierta luz penetre para la producción de vitamina D. Con el paso del tiempo, nuestra especie se ha desplazado bastante. Cuando grupos de seres humanos se desplazaron a regiones con una intensidad de radiación UV diferente,<br />\nsu piel se adaptó lentamente a lo largo de miles de años. Los tonos de piel más oscuros y más claros evolucionaron muchas veces.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>適度的色素沉著可以阻擋部分紫外線以保護葉酸，也可以讓一些紫外線穿透皮膚，供人體合成維生素 D。隨著時間的推移，人類這一物種也在不斷地遷移。當一群人遷移到紫外線強度不同的地區時，他們的皮膚會在數千年的時間裡逐漸適應。無論是深膚色還是淺膚色，都經歷過很多次演化。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Humaharang ang katamtamang pigmentasyon sa ilang UV na liwanag para maproteksiyunan ang folate pero hinahayaan ding makatagos ang ilang liwanag para sa produksiyon ng bitamina D. Sa paglipas ng panahon, nagpalipat-lipat ang ating espesye nang napakaraming beses. Kapag lumipat ang mga grupo ng tao sa mga rehiyon na may ibang intensidad ng UV, ang kanilang balat ay dahan-dahang nag-aangkop sa paglipas ng libo-libong taon. Ang mga mas maitim at mas maputing kulay ng balat ay parehong nag-aangkop nang maraming beses. </p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Info Skin Pigment Light",
+    "items": [
+      {
+        "Key": {
+          "#markup": "header"
+        },
+        "English": {
+          "#markup": "<p>Lighter skin tones are typical</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Son típicos los tonos de piel más claros</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>淺膚色較為常見</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Karaniwan ang mga mas maputing kulay ng balat</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "description"
+        },
+        "English": {
+          "#markup": "<p>Lightly pigmented skin allows more UV light to enter the skin. The low intensity of UV light at the poles reduces the risk of destroying folate. Having less pigment helps the skin make enough vitamin D<br />\nunder weak UV light.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>La piel de pigmentación clara permite que ingrese más luz UV en la piel. La baja intensidad de la luz UV en<br />\nlos polos reduce el riesgo de destruir el folato. Tener menos pigmento ayuda a que la piel fabrique suficiente vitamina D bajo una luz UV débil.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>淺色素皮膚會讓更多紫外線穿透皮膚。極地地區的低強度紫外線降低了葉酸被破壞的風險。色素較少幫助皮膚在弱紫外線條件下合成維生素 D。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Nagpapapasok ang balat na manipis ang pigment ng mas maraming UV na liwanag sa balat. Ang mababang intensidad ng UV na liwanag sa mga polo ay nakakabawas sa panganib na masira ang folate. Ang pagkakaroon ng mas kaunting pigment ay tumutulong sa balat na makagawa ng sapat na bitamina D sa ilalim ng mababang UV na liwanag.</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Person 1",
+    "items": [
+      {
+        "Key": {
+          "#markup": "location"
+        },
+        "English": {
+          "#markup": "<p>Burgarama, Burundi</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Burgarama, Burundi</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>布噶拉瑪，布隆迪</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Burgarama, Burundi</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Person 2",
+    "items": [
+      {
+        "Key": {
+          "#markup": "location"
+        },
+        "English": {
+          "#markup": "<p>Zinder, Niger</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Zinder, Niger</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>津德爾，尼日爾</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Zinder, Niger</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Person 3",
+    "items": [
+      {
+        "Key": {
+          "#markup": "location"
+        },
+        "English": {
+          "#markup": "<p>Colombo, Sri Lanka</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Colombo, Sri Lanka</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>科倫坡，斯里蘭卡</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Colombo, Sri Lanka</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Person 4",
+    "items": [
+      {
+        "Key": {
+          "#markup": "location"
+        },
+        "English": {
+          "#markup": "<p>Buka, Papua New Guinea</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Buka, Papúa Nueva Guinea</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>布卡，巴布亞新幾內亞</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Buka, Papua New Guinea</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Person 5",
+    "items": [
+      {
+        "Key": {
+          "#markup": "location"
+        },
+        "English": {
+          "#markup": "<p>El Alto, Bolivia</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>El Alto, Bolivia</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>埃爾阿爾托，玻利維亞</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>El Alto, Bolivia</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Person 6",
+    "items": [
+      {
+        "Key": {
+          "#markup": "location"
+        },
+        "English": {
+          "#markup": "<p>Pietermaritzburg,</p>\n<p>South Africa</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Pietermaritzburg, Sudáfrica</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>彼得馬里茨堡，南非</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Pietermaritzburg,</p>\n<p>Timog Aprika</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Person 7",
+    "items": [
+      {
+        "Key": {
+          "#markup": "location"
+        },
+        "English": {
+          "#markup": "<p>Cairo, Egypt</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>El Cairo, Egipto</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>開羅，埃及</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Cairo, Ehipto</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Person 8",
+    "items": [
+      {
+        "Key": {
+          "#markup": "location"
+        },
+        "English": {
+          "#markup": "<p>Yangshuo, China</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Yangshuo, China</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>陽朔，中國</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Yangshuo, Tsina</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Person 9",
+    "items": [
+      {
+        "Key": {
+          "#markup": "location"
+        },
+        "English": {
+          "#markup": "<p>Lismore, Australia</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Lismore, Australia</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>利斯莫爾，澳洲</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Lismore, Australia</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Person 10",
+    "items": [
+      {
+        "Key": {
+          "#markup": "location"
+        },
+        "English": {
+          "#markup": "<p>Koshu, Japan</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Koshu, Japón</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>甲州，日本</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Koshu, Hapon</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Person 11",
+    "items": [
+      {
+        "Key": {
+          "#markup": "location"
+        },
+        "English": {
+          "#markup": "<p>Buenos Aires, Argentina</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Buenos Aires, Argentina</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>布宜諾斯艾利斯，阿根廷</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Buenos Aires, Argentina</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Person 12",
+    "items": [
+      {
+        "Key": {
+          "#markup": "location"
+        },
+        "English": {
+          "#markup": "<p>Idaho Falls, Idaho,</p>\n<p>United States</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Idaho Falls, Idaho,</p>\n<p>Estados Unidos</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>愛達荷福爾斯，愛達荷州，美國</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Idaho Falls, Idaho,</p>\n<p>Estados Unidos</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Person 13",
+    "items": [
+      {
+        "Key": {
+          "#markup": "location"
+        },
+        "English": {
+          "#markup": "<p>Warsaw, Poland</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Varsovia, Polonia</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>華沙，波蘭</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Warsaw, Poland</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Person 14",
+    "items": [
+      {
+        "Key": {
+          "#markup": "location"
+        },
+        "English": {
+          "#markup": "<p>Abakan, Russia</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Abakán, Rusia</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>阿巴坎，俄羅斯</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Abakan, Russia</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Person 15",
+    "items": [
+      {
+        "Key": {
+          "#markup": "location"
+        },
+        "English": {
+          "#markup": "<p>Utqiagvik, Alaska,</p>\n<p>United States</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Utqiagvik, Alaska,</p>\n<p>Estados Unidos</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>烏特恰維克，阿拉斯加州，美國</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Utqiagvik, Alaska,</p>\n<p>Estados Unidos</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Person 16",
+    "items": [
+      {
+        "Key": {
+          "#markup": "location"
+        },
+        "English": {
+          "#markup": "<p>Vancouver, Canada</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Vancouver, Canadá</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>溫哥華，加拿大</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Vancouver, Canada</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Person 17",
+    "items": [
+      {
+        "Key": {
+          "#markup": "location"
+        },
+        "English": {
+          "#markup": "<p>Ilulissat, Greenland</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Ilulissat, Groenlandia</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>伊盧利薩特，格陵蘭島</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ilulissat, Greenland</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Info Skin Pigment Light Exception",
+    "items": [
+      {
+        "Key": {
+          "#markup": "header"
+        },
+        "English": {
+          "#markup": "<p>An exception to the pattern</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Una excepción al patrón</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>例外情況</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Isang eksepsiyon sa padron</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "description"
+        },
+        "English": {
+          "#markup": "<p>On average, native Greenlanders have more skin pigment than predicted. Their traditional seafood-rich diet is loaded with vitamin D, which may have reduced the pressure to lose melanin. Humans arrived in Greenland relatively recently, so the weak UV light has had fewer generations to influence skin color.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>En promedio, las personas nativas de Groenlandia tienen más pigmento en la piel de lo previsto. Su dieta tradicional rica en mariscos está cargada de vitamina D, lo cual pudo haber reducido la presión para perder melanina. Los seres humanos llegaron a Groenlandia hace relativamente poco, por ello, la débil luz UV ha tenido menos generaciones para influenciar el color de la piel.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>平均而言，格陵蘭島原住民的皮膚色素比預計的多。他們的傳統飲食以海鮮為主，其中富含大量維生素 D，因此可能減少了他們流失黑色素的壓力。人類抵達格陵蘭島的時間相對來說不是很長，所以弱紫外線對膚色的影響也不是很久。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Kadalasan, ang mga katutubo sa Greenland ay may mas maraming pigment sa balat kaysa inaasahan. Ang kanilang tradisyonal na pagkaing sagana sa pagkaing-dagat ay kargado ng bitamina D, na maaaring nakabawas sa pangangailangang magbawas ng melanina. Kung tutuusin, bago lang ang pagdating ng tao sa Greenland, kaya ang mababang UV na liwanag ay may mas kaunting henerasyon ng pag-impluwensiya sa kulay ng balat.</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Balancing the Sun Info Skin Pigment High Exception",
+    "items": [
+      {
+        "Key": {
+          "#markup": "header"
+        },
+        "English": {
+          "#markup": "<p>An exception to the pattern</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Una excepción al patrón</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>例外情況</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Isang eksepsiyon sa padron</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "description"
+        },
+        "English": {
+          "#markup": "<p>On average, people native to the Andes have less skin pigment than predicted. Skin color evolution takes many generations, and humans arrived in South America relatively recently (15,000 – 20,000 years ago). Behavior such as wearing hats and clothing and using shelter also may have reduced the pressure to gain melanin under intense UV light.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>En promedio, las personas nativas de los Andes tienen menos pigmento en la piel que lo previsto. La evolución del color de la piel requiere de muchas generaciones, y los seres humanos llegaron a América del Sur hace relativamente poco tiempo (hace 15,000 – 20,000 años). Comportamientos como el uso de sombreros y ropa y el uso de refugios también pudieron haber reducido la presión para obtener melanina bajo luz UV intensa.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>平均而言，安第斯山脈原住民的皮膚色素沒有預計的那麼多。膚色的演變需要經歷很多世代，而人類抵達南美洲的時間相對來說沒那麼長（15,000 – 20,000 年前）。穿衣戴帽和搭建住所等行為也減少了在強紫外線環境中獲得黑色素的壓力。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Kadalasan, ang mga taong katutubo sa Andes ay may mas kaunting pigment sa balat kaysa inaasahan. Inaabot ng maraming henerasyon ang ebolusyon ng kulay ng balat, at kung tutuusin, bago lamang ang pagdating ng mga tao sa Timog Amerika (15,000 -- 20,000 taon na ang nakalilipas). Ang mga gawi tulad ng pagsusuot ng sombrero at damit at paggamit ng silungan ay maaaring nakabawas sa pangangailangang magdagdag ng melanina sa ilalim ng matinding UV na liwanag.</p>\n"
+        }
+      }
+    ]
+  }
+]
