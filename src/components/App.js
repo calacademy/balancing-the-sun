@@ -309,14 +309,6 @@ class App extends Component {
     }
   }
 
-  _loadComplete() {
-    this.setState({
-      display: 'main',
-      dateLastTouch: new Date()
-    })
-    setInterval(() => this._inactivityCheck(), 5000)
-  }
-
   _selectLanguage(e, lang) {
     e.preventDefault()
     this.setState({
@@ -408,6 +400,10 @@ class App extends Component {
   componentDidMount() {
     this._getData()
     this._getDataCredits()
+    this.setState({
+      dateLastTouch: new Date()
+    })
+    setInterval(() => this._inactivityCheck(), 5000)
   }
 
   componentDidUpdate(prevProps, prevState) {
