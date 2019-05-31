@@ -392,7 +392,7 @@ class App extends Component {
 
   _closeAttract() {
     this.setState({
-      display: 'main',
+      display: 'video',
       dateLastTouch: new Date()
     })
   }
