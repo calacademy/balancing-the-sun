@@ -37,8 +37,8 @@ $easing: cubic-bezier(.215, .61, .355, 1);
 
 @mixin anim-show-rule {
   opacity: 0;
+  transition: opacity 0.6s $easing;
   &.show-anim {
-    transition: opacity .6s $easing;
     opacity: 1;
   }
 }
