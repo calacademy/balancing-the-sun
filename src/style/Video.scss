@@ -13,16 +13,20 @@
     right: 48px;
   }
 
-  .caption-container {
+  #caption-container {
     z-index: 1;
     position: absolute;
-    bottom: 100px;
-    left: 100px;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+    height: 1035px;
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.6));
   }
 
   button {
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     top: 20px;
     left: 55px;
     width: 92px;

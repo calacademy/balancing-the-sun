@@ -23,7 +23,7 @@ class Caption extends Component {
 
     return(
       <div
-        className={ this.props.id === this.props.language ? 'caption' : 'caption hide-anim'}
+        className={ this.props.id === this.props.language ? 'caption show-anim' : 'caption'}
         >
         <span dangerouslySetInnerHTML={markupCaption} />
       </div>

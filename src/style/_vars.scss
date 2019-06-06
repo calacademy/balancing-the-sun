@@ -35,14 +35,11 @@ $uv-high-color: #b7a9d1;
 
 $easing: cubic-bezier(.215, .61, .355, 1);
 
-@mixin anim-hide-rule {
-  visibility: visible;
-  opacity: 1;
-  transition: visibility 0.5s, opacity 0.4s $easing;
-  &.hide-anim {
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0.5s, opacity 0.4s $easing;
+@mixin anim-show-rule {
+  opacity: 0;
+  &.show-anim {
+    transition: opacity .6s $easing;
+    opacity: 1;
   }
 }
 

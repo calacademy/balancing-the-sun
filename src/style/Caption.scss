@@ -2,15 +2,14 @@
 
 .caption {
   position: absolute;
-  bottom: 0;
-  padding: 40px;
-  z-index: 1;
-  width: 1840px;
-  text-align: center;
+	width: calc(100% - 80px);
+	bottom: 0;
+	padding: 40px;
+	text-align: center;
   overflow: hidden;
   span {
     color: #fff;
     @include video-caption-rule;
   }
-  @include anim-hide-rule;
+  @include anim-show-rule;
 }
